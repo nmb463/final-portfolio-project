@@ -1,7 +1,8 @@
 :root {
     --primary-font-family: "Poppins", sans-serif;
     --secondary-font-family: "Playfair Display", serif;
-    --btn-color: #9B8888;
+    --primary-btn-color: #9B8888;
+    --launch-btn-color: #BDF9F6;
     --base-color: #F5F5F5;
 }
 
@@ -9,33 +10,74 @@ h1{
     font-family: var(--primary-font-family);
     font-weight: bold;
     font-size: 50px;
-    text-align: center;
 }
 
 
 h2{
     font-family: var(--secondary-font-family); 
     font-size: 20px;
-    text-align: center;
 }
+
+p {
+    font-family: var(--secondary-font-family);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 
 .hero {
     background-color:var(--base-color);
     padding: 100px 0;
+    text-align: center;
 }
 
 .home-contact-button {
     display: block;
     margin: auto;
-    background-color: var(--btn-color);
+    background-color: var(--primary-btn-color);
     border: none;
     border-radius: 4px;
 }
 
+
 .home-contact-button a{
-    color: white;
     font-size: 16px;
     line-height:27px;
     padding: 20px 50px;
+    color: white;
     text-decoration: none;
+}
+
+.app-name {
+    font-weight: bold;
+}
+
+.launch-button {
+    background-color:var(--launch-btn-color);
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.launch-button a{
+    color: var(--primary-btn-color);
+    text-decoration: none;
+}
+
+@media (max-width: 960px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .hero {
+        padding: 60px 0;
+    }
+
+    .project-description {
+        text-align: center;
+    }
 }
