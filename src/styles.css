@@ -54,13 +54,13 @@ p {
 
 .launch-button {
     background-color:var(--launch-btn-color);
-    font-size: 16px;
     border: none;
     border-radius: 4px;
 }
 
 .launch-button a{
     color: var(--primary-btn-color);
+    font-size: 16px;
     text-decoration: none;
 }
 
