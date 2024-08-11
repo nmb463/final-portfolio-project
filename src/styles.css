@@ -15,7 +15,7 @@ h1{
 
 h2{
     font-family: var(--secondary-font-family); 
-    font-size: 20px;
+    font-size: 24px;
 }
 
 p {
@@ -64,10 +64,16 @@ p {
     text-decoration: none;
 }
 
-.about-section {
+.content-container {
     padding: 100px 0;
 }
 
+
+.content h3 {
+    font-family: var(--secondary-font-family);
+    font-weight: bold;
+    font-size: 20px;
+}
 
 
 @media (max-width: 960px) {
@@ -76,7 +82,7 @@ p {
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .hero {
@@ -87,11 +93,11 @@ p {
         text-align: center;
     }
 
-    .about-section {
+    .content-container {
         text-align: center;
     }
 
-    .about-content {
+    .content {
         margin-top: 30px;
     }
 }
