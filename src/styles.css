@@ -80,6 +80,15 @@ nav li.active a,
     text-decoration: none;
 }
 
+.contact-button:hover {
+    background: white;
+    border: 1px solid var(--primary-color);
+}
+
+.contact-button a:hover {
+    color: var(--primary-color);
+}
+
 .app-name {
     font-weight: bold;
 }
@@ -94,6 +103,15 @@ nav li.active a,
     color: var(--primary-color);
     font-size: 16px;
     text-decoration: none;
+}
+
+.project-button:hover{
+    background: white;
+    border: 1px solid var(--primary-color)
+}
+
+.project-button a:hover {
+    color: var(--primary-color);
 }
 
 .content-container {
