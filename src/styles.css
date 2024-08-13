@@ -107,6 +107,10 @@ nav li.active a,
     font-size: 20px;
 }
 
+.nicole-photo {
+    max-height: 550px;
+}
+
 .envelope-icon {
     font-size: 50px;
 }
