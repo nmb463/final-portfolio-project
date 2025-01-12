@@ -133,7 +133,9 @@ nav li.active a,
     font-size: 50px;
 }
 
-
+.bio-content {
+    line-height: 2.5;
+}
 
 .grid {
     display: grid;
