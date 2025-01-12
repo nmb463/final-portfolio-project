@@ -1,9 +1,9 @@
 :root {
     --primary-font-family: "Poppins", sans-serif;
     --secondary-font-family: "Playfair Display", serif;
-    --primary-color: #9B8888;
-    --secondary-color: #BDF9F6;
-    --base-color: #F5F5F5;
+    --primary-color:  #7b8fc4;
+    --secondary-color:  #B2B9DD; 
+    --base-color:  #c0e0d7;
 }
 
 h1{
@@ -100,7 +100,7 @@ nav li.active a,
 }
 
 .project-button a{
-    color: var(--primary-color);
+    color: #414141;
     font-size: 16px;
     text-decoration: none;
 }
