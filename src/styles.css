@@ -142,9 +142,6 @@ nav li.active a,
     grid-template-columns: 1fr 2fr 1fr;
 }
 
-.border-primary {
-    color: var(--primary-color);
-}
 
 .skill-heading {
     font-size: 20px;
